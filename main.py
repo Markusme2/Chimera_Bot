@@ -1,6 +1,7 @@
 # developed by Markus Menner 
 # github.com/Markusme2
 # twitter.com/mennermarkus
+# discord tag = MarkusM#1405
 import random
 import discord
 import os
