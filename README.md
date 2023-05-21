@@ -1,6 +1,5 @@
 # Chimera_Bot
 Discord Name = MarkusM#1405
-Twitter = @MennerMarkus
 
 DISCLAIMER : This list of functinality is extremely fluid and is constantly changing. ALL gifs are handled via the tenor api and are directly from that database
 
