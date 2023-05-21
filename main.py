@@ -6,7 +6,7 @@ import random
 import discord
 import os
 import sys
-import csv
+import pandas as pd
 import requests
 from dotenv import load_dotenv
 from discord.ext import commands
@@ -197,6 +197,22 @@ async def on_message(msg):
         if reply == 6:
             await msg.channel.send(f"Go Next. Number {counter}")
     file.close()
+#--------------------------------------------------------------------------------------#
+@bot.command()
+async def pokemon(ctx, pokedex):
+    pokedex = int(pokedex)
+    dataframe = pd.read_csv("pokemon.csv", usecols = [2,4,5,6,7,8,10])
+    await ctx.send(dataframe.iloc[[pokedex-1]].to_string(index=False))
+    gif = requests.get(f"https://api.tenor.com/v1/search?q=pokemon&key={tenor}&limit=8")
+    if gif.status_code == 200:
+        index = random.randint(0,5)
+        await ctx.send(gif.json()['results'][index]['url'])
+    else:
+        pass
+
+
+
+
 # @bot.command()
 # async def imagine(ctx, image):
 #   openai.api_key = os.getenv('openai_key')
@@ -210,14 +226,7 @@ async def on_message(msg):
 #   await ctx.send(image_url)
 
 #--------------------------------------------------------------------------------------#
-# @bot.command()
-# async def pokemon(ctx, pokemon):
-#     gif = requests.get(f"https://api.tenor.com/v1/search?q={pokemon}&key={tenor}&limit=8")
-#     if gif.status_code == 200:
-#         index = random.randint(0,5)
-#         await ctx.send(gif.json()['results'][index]['url'])
-#     else:
-#         await ctx.send("No gif found")
+
     
     
 bot.run(discord)
