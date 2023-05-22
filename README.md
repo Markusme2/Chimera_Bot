@@ -51,7 +51,7 @@ $controller
 UPCOMING CHANGES IN DEVELOPMENT
 
 - add $pokemon 
-    - this feature will take in "$pokemon {pokemon_name}"
+    - this feature will take in "$pokemon {pokedex_number}"
     - bot will produce a gif of the mon and then display the essential stats of the mon and its ideal moveset
     
 Potential additions
