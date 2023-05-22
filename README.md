@@ -9,7 +9,7 @@ The bot is intended to be a utility bot that has a variety of functions.
 
 The prefix for the commands is '$'
 Enter '$commands' to identify the ecommands that are working as intended at the time.
-Currently the lsit of commands are the following:
+Currently the list of commands are the following:
 ------------
 $flipcoin
   - displays a random gif flipping a coin and then produce an output 'heads' or 'tails'
