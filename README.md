@@ -3,7 +3,7 @@ Discord Name = MarkusM#1405
 
 ⚠️ The bot is not live yet the link to add the bot to discord will be posted in here once it is live 24/7
 
-🤠 Requests for added features will be considered if you reach out to me, reach out with suggestions 🤙
+🤠 Requests for added features will be considered, reach out with suggestions 🤙
 
 DISCLAIMER : This list of functinality is extremely fluid and is constantly changing. ALL gifs are handled via the tenor api and are directly from that database
 
