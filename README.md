@@ -1,6 +1,6 @@
 # Chimera_Bot
 Discord Name = MarkusM#1405
-⚠️ The bot is not live yet the link to add the bot to discord will be posted in hereo nce it is live 24/7
+⚠️ The bot is not live yet the link to add the bot to discord will be posted in here once it is live 24/7
 DISCLAIMER : This list of functinality is extremely fluid and is constantly changing. ALL gifs are handled via the tenor api and are directly from that database
 
 This is a discord bot that I developed.
