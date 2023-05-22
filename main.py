@@ -203,15 +203,13 @@ async def pokemon(ctx, pokedex):
     pokedex = int(pokedex)
     dataframe = pd.read_csv("pokemon.csv", usecols = [2,4,5,6,7,8,10])
     await ctx.send(dataframe.iloc[[pokedex-1]].to_string(index=False))
-    gif = requests.get(f"https://api.tenor.com/v1/search?q=pokemon&key={tenor}&limit=8")
+    name = dataframe.iloc[[pokedex-1],0].to_string(index=False)
+    gif = requests.get(f"https://tenor.googleapis.com/v2/search?q={name}&key={tenor}&client_key=my_test_app&limit=8")
     if gif.status_code == 200:
         index = random.randint(0,5)
         await ctx.send(gif.json()['results'][index]['url'])
     else:
         pass
-
-
-
 
 # @bot.command()
 # async def imagine(ctx, image):
