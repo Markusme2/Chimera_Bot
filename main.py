@@ -47,6 +47,7 @@ async def commands(ctx):
     await ctx.send("$flipcoin will flip a coin and display either heads or tails")
     await ctx.send("$duelist, $sentinel, $controller, $initiator will display a random agent")
     await ctx.send("$poll will create a poll with the question you ask")
+    await ctx.send("$pokemon displays pokemon's stats,enter $pokemon followed by its pokedex number, EX: $pokemon 112")
 #--------------------------------------------------------------------------------------#
 #beginning of random number generator
 @bot.command()
