@@ -2,6 +2,8 @@
 Discord Name = MarkusM#1405
 
 ⚠️ The bot is not live yet the link to add the bot to discord will be posted in here once it is live 24/7
+⚠️ The bot can handle one gif request at a time, as this is the limit for the tenor API.
+⚠️ Please reach out directly with any bugs that may be found when using the code, thank you for trying Chimera!
 
 🤠 Requests for added features will be considered, reach out with suggestions 🤙
 
