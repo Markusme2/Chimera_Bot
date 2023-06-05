@@ -11,6 +11,7 @@ DISCLAIMER : This list of functinality is extremely fluid and is constantly chan
 
 This is a discord bot that I developed.
 The bot is intended to be a utility bot that has a variety of functions. 
+Currently, working on expanding the pokemon funcitonality into the different forms.
 
 
 The prefix for the commands is '$'
