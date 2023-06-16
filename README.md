@@ -1,5 +1,6 @@
 # Chimera_Bot
 Discord Name = MarkusM#1405
+BOT IS CURRENTLY DOWN FOR MAINTENACE THROUGH THE WEEKEND (06/16/23)
 
 ⚠️ Add the bot through this link: https://discord.com/api/oauth2/authorize?client_id=1108033498532565062&permissions=8&scope=bot
 ⚠️ The bot can handle one gif request at a time, as this is the limit for the tenor API.
